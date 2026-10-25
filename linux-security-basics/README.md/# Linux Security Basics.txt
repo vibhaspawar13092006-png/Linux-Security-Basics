@@ -1,0 +1,63 @@
+# Linux Security Basics
+
+Internship Project
+
+**Organization:** Redkross Research Foundation  
+**Project:** Linux Security Basics  
+**Environment:** Ubuntu Linux Virtual Machine  
+**Virtualization Software:** Oracle VirtualBox
+
+ Project Overview
+
+This project focuses on understanding and implementing basic Linux security practices in an Ubuntu virtual machine. It covers system updates, firewall configuration, file permissions, security profiles, service inspection, and system log monitoring.
+
+Objectives
+
+- Understand basic Linux security hardening.
+- Review system updates and automatic update configuration.
+- Check firewall status and incoming traffic rules.
+- Examine user privileges and important file permissions.
+- Review AppArmor security profiles.
+- Inspect system services and logs.
+- Check listening network sockets.
+
+ Practical Tasks
+
+1. System package updates using APT.
+2. Firewall status verification using UFW.
+3. Automatic update configuration review.
+4. User group and file permission inspection.
+5. AppArmor status verification.
+6. System service review.
+7. SSH service availability check.
+8. System log inspection.
+9. Listening network socket inspection using `ss -tulpn`.
+
+Video Demonstration
+
+The repository includes a recorded practical demonstration of the Linux Security Basics task.
+
+**Video duration:** 10 minutes 26 seconds.
+
+Project Report
+
+The PDF report included in this repository documents the work performed, observations, learning outcomes, and recommendations.
+
+Observation
+
+Two packages, `orca` and `xserver-common`, remained marked as not upgraded during the package upgrade check. They were not force-upgraded as part of this task.
+
+Learning Outcomes
+
+- Learned basic Linux security hardening techniques.
+- Practiced checking firewall configuration.
+- Reviewed Linux file permissions and user privileges.
+- Learned to inspect AppArmor, services, and system logs.
+- Understood the importance of updates and network socket monitoring.
+
+Conclusion
+
+This project provided practical experience with basic Linux workstation security checks in a virtualized Ubuntu environment.
+
+---
+
